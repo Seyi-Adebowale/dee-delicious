@@ -34,13 +34,13 @@ export default function ReservationsPage() {
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <span className="material-icons text-xl">location_on</span>
               </div>
-              <span>112 Breck Road, Anfield, Liverpool L4 2RD</span>
+              <span className="text-left">112 Breck Road, Anfield, Liverpool L4 2RD</span>
             </div>
             <div className="flex items-center gap-4 text-slate-700 dark:text-slate-300">
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <span className="material-icons text-xl">phone</span>
               </div>
-              <span>07465 682308</span>
+              <span className="text-left">07465 682308</span>
             </div>
           </div>
         </div>

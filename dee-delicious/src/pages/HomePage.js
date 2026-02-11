@@ -84,7 +84,7 @@ const REVIEWS = [
 
 function Hero({ onAction }) {
   return (
-    <div className="relative pt-20 pb-20 overflow-hidden">
+    <div className="relative pt-10 pb-10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div className="z-10 space-y-8">
           <div className="space-y-4">
@@ -191,12 +191,11 @@ function BestSellers() {
 
   const scroll = (direction) => {
     if (!scrollRef.current) return;
-    const { scrollLeft, clientWidth } = scrollRef.current;
-    const scrollTo =
-      direction === "left"
-        ? scrollLeft - clientWidth / 2
-        : scrollLeft + clientWidth / 2;
-    scrollRef.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    const { clientWidth } = scrollRef.current;
+    scrollRef.current.scrollBy({
+      left: direction === "left" ? -clientWidth / 2 : clientWidth / 2,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -230,7 +229,8 @@ function BestSellers() {
 
         <div
           ref={scrollRef}
-          className="flex gap-8 overflow-x-auto hide-scrollbar pb-8 px-6 sm:px-8 lg:px-12 snap-x snap-mandatory"
+          className="flex gap-8 overflow-x-auto hide-scrollbar pb-8 px-6 sm:px-8 lg:px-12 snap-x snap-mandatory relative"
+          style={{ WebkitOverflowScrolling: "touch" }} // mobile smooth scrolling
         >
           {BEST_SELLERS.map((item) => (
             <div
@@ -265,6 +265,7 @@ function BestSellers() {
     </section>
   );
 }
+
 
 function Testimonials() {
   return (

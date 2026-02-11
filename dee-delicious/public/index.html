@@ -17,7 +17,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
 
     <link rel="icon" type="image/png" href="/favicon.png" />
 
@@ -64,6 +67,15 @@
         background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBIDUloOXM5prwGXF4pTD4Fhkf3p01PngguPDAEz5WL2fgCVktJBRwMtDOS2d4r-71thA1mqwY-oAA7qKXXvuoQIDkEQx6clue_TE-3RLoNe5kVBmJ8gmnfNH605KT_TzXIImbllf0Hx1B__XT4rXVlLZw5rXxdbD1gKLHdbkOEvmzqyzEdKsI0VSBark-zZq7sCCqMnqiFXpj58lX-DvzdtU7KaNZ4P8U1Qs44LyNehZJni2zJJczZ9yk2BSoGaPG1FxxhmR3r0Iu5);
         background-color: #f48c25;
         background-blend-mode: overlay;
+      }
+      /* Hide horizontal scrollbar (categories) */
+      .category-scroll {
+        -ms-overflow-style: none; /* IE + Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+
+      .category-scroll::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
       }
     </style>
     <script type="importmap">
