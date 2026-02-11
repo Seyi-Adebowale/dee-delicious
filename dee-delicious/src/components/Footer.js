@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImage from "../assets/logo.png"; 
+import LogoImage from "../assets/logo.png";
 
 export default function Footer() {
   return (
@@ -45,7 +45,7 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex gap-4 mt-6 text-white/70">
               <a
-                href="#"
+                href="https://www.facebook.com/"
                 className="hover:text-white transition-colors text-xl"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Footer() {
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/"
                 className="hover:text-white transition-colors text-xl"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,13 +61,14 @@ export default function Footer() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/"
                 className="hover:text-white transition-colors text-xl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-tiktok"></i>
               </a>
+
               <a
                 href="https://wa.me/2347000000000"
                 className="hover:text-white transition-colors text-xl"

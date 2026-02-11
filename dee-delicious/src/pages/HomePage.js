@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
-import { ArrowRight, Utensils, Calendar } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import HeroImage from "../assets/hero-image.png";
 import StarterImage from "../assets/starter.jpg";
 import MainMealImage from "../assets/main-meals.jpg";

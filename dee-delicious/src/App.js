@@ -14,10 +14,10 @@ import OrderTracking from "./pages/OrderTracking";
 // import ScrollToTop from "./components/ScrollToTop";
 import MenuPage from "./pages/MenuPage";
 // import { CartProvider } from "./context/CartContext";
-import { UserProvider } from "./context/UserContext";
+// import { UserProvider } from "./context/UserContext";
 // import { CheckoutProvider } from "./context/CheckoutContext";
 // import CheckoutModalWrapper from "./components/CheckoutModalWrapper";
-import { ProfileProvider } from "./context/ProfileContext";
+// import { ProfileProvider } from "./context/ProfileContext";
 // import PaymentSuccess from "./pages/PaymentSuccess";
 
 function App() {
