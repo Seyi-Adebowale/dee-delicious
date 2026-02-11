@@ -1,0 +1,67 @@
+.thank-you-page {
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 125px;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .thank-you-page h1 {
+    font-size: 3rem;
+    padding-bottom: 40px;
+    color: #fff;
+  }
+  
+  .thank-you-page h3 {
+    font-size: 2.3rem;
+    padding-bottom: 10px;
+  }
+  
+  .thank-you-page h4 {
+    font-size: 1.9rem;
+  }
+  
+  .thank-you-page a {
+    font-size: 1.6rem;
+    color: var(--secondary-colour);
+    text-decoration: underline;
+  }
+  
+  .thank-you-page a:hover {
+    color: #4e8db7;
+  }
+  
+  @media (max-width: 700px) {
+    .thank-you-page h1 {
+      font-size: 2.7rem;
+    }
+    .thank-you-page h3 {
+      font-size: 2.2rem;
+    }
+    .thank-you-page h4 {
+      font-size: 1.7rem;
+    }
+    .thank-you-page a {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .thank-you-page h1 {
+      font-size: 2.4rem;
+    }
+    .thank-you-page h3 {
+      font-size: 1.6rem;
+    }
+    .thank-you-page h4 {
+      font-size: 1.4rem;
+    }
+    .thank-you-page a {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,139 @@
+/* HomePage.css */
+.homepage {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #fdf5f0;
+}
+
+.hero-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-tagline {
+  display: block;
+  font-size: 1rem;
+  color: #ff6b35;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .highlight {
+  color: #ff6b35;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.hero-btn.primary {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.hero-btn.secondary {
+  background-color: transparent;
+  color: #ff6b35;
+  border: 2px solid #ff6b35;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Categories Section */
+.categories {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.category-card {
+  background-color: #fdf5f0;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.category-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
