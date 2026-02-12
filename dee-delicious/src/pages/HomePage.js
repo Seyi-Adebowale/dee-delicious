@@ -6,7 +6,6 @@ import MainMealImage from "../assets/main-meals.jpg";
 import SwallowImage from "../assets/swallow.jpg";
 import GrillsImage from "../assets/grills.jpg";
 
-
 /* ------------------ PLACEHOLDER DATA ------------------ */
 
 const CATEGORIES = [
@@ -98,7 +97,8 @@ function Hero({ onAction }) {
             </h1>
 
             <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
-              From our kitchen to your table — taste the smoky, delicious flavors of West Africa and the Caribbean.
+              From our kitchen to your table — taste the smoky, delicious
+              flavors of West Africa and the Caribbean.
             </p>
           </div>
 
@@ -172,13 +172,13 @@ function MenuExplorer() {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <button
-            onClick={() => (window.location.href = "/menu")}
+          <Link
+            to="/menu"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:bg-primary/90 transition-all"
           >
             Explore Full Menu{" "}
             <span className="material-icons">arrow_forward</span>
-          </button>
+          </Link>
         </div>
       </div>
     </section>
@@ -265,7 +265,6 @@ function BestSellers() {
   );
 }
 
-
 function Testimonials() {
   return (
     <section className="py-24 bg-background-light relative">
@@ -338,12 +337,12 @@ export default function HomePage({ onAction }) {
             Secure your spot and enjoy authentic Afro-Caribbean flavors.
           </p>
           <div className="text-center mt-12">
-            <button
-              onClick={() => (window.location.href = "/reservations")}
+            <Link
+              to="/reservations"
               className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:bg-primary/90 transition-all"
             >
               Book a Table <span className="material-icons">arrow_forward</span>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
