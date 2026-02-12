@@ -87,7 +87,7 @@ export default function Navbar() {
         <>
           {/* Overlay only on page content, below navbar */}
           <div
-            className="fixed left-0 right-0 bottom-0 bg-black/40 z-[999]"
+            className="fixed left-0 right-0 bottom-0 bg-black/60 z-[999]"
             style={{ top: "5rem" }} // matches navbar height
             onClick={() => setMobileMenuOpen(false)}
           />
