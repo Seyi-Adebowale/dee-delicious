@@ -222,8 +222,7 @@ export default function MenuPage() {
               <span className="font-semibold">100% Halal Food</span>
             </li>
             <li>
-              • If you have a food allergy or intolerance, speak to our staff
-              before ordering.
+              • If you have a food allergy, intolerance, or coeliac disease, please speak to our staff before ordering as our ingredients may contain peanuts, milk, wheat, dairy and poultry.
             </li>
           </ul>
         </div>
