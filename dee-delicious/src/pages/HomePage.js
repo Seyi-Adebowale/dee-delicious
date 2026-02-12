@@ -98,8 +98,7 @@ function Hero({ onAction }) {
             </h1>
 
             <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
-              From our kitchen to your heart. Experience the smoky spices of
-              West Africa and the soul-soothing heat of the Caribbean.
+              From our kitchen to your table — taste the smoky, soulful flavors of West Africa and the Caribbean.
             </p>
           </div>
 
