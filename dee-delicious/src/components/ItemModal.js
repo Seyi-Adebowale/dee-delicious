@@ -19,7 +19,7 @@ export default function ItemModal({ item, isOpen, onClose, onAddToBasket }) {
       <div className="bg-white rounded-3xl w-full max-w-lg overflow-hidden shadow-lg relative">
         {/* Close Button */}
         <button
-          className="absolute top-4 right-4 text-white hover:text-secondary text-4xl font-bold"
+          className="absolute top-4 right-4 text-primary hover:text-secondary text-4xl font-bold"
           onClick={onClose}
         >
           &times;
@@ -89,7 +89,7 @@ export default function ItemModal({ item, isOpen, onClose, onAddToBasket }) {
             }}
             className="mt-4 w-full bg-orange-500 hover:bg-orange-600 text-white py-4 rounded-2xl font-semibold text-lg transition flex justify-center items-center gap-2"
           >
-            Add to Basket - £{totalPrice.toFixed(2)}
+            Add to Basket  £{totalPrice.toFixed(2)}
           </button>
         </div>
       </div>
